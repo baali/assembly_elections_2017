@@ -1,0 +1,8 @@
+CSV Files and some scripts for Assembly elections 2017.
+
+To get booth wise data for UP 2012 elections I was able to get all xls
+using this command:
+
+#+BEGIN_SRC shell
+for i in {1..403}; do wget http://ceouttarpradesh.nic.in/Form20_12/$i.xls; done
+#+END_SRC
